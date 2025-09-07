@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MES REALISATIONS</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body id="body">
+    
+ <!-- entête -->
+    <header id="header">
+<a href="page1.html"><img style="width: 120px; margin-left: 7%;" src="logo.png" alt="logo de l'entreprise"></a>
+        <div id="demi2">
+        </div>
+
+        <div class="entete">
+            <a class="none" href="page1.html">Accueil</a>
+
+            <a class="none" href="page1.html">A propos</a>
+
+            <a class="none" href="page1.html">Services</a>
+
+            
+            <a class="none" href="page2.html">Mes réalisations</a>
+
+            <a class="none" href="#contact2">Contacter</a>
+
+            <button style="background-color: rgb(255, 255, 255); color: white;">
+                <a style="text-decoration: none; color: black;" href="https://wa.me//+22893512256" target="_blank"
+                    rel="noopener noreferrer">Discutons de votre
+                    projet</a>
+            </button>
+        </div>
+    </header> <br>
+
+ <!-- Réalisations -->
+    <section class="service2">
+        <h1> MES REALISATIONS </h1>
+        <p>Quelques projets récents mis en avant pour que vous soyez bien au parfum de la qualité de traitement qu'on accorde aux projets des clients.</p>
+
+        <div id="divi33">
+            <a class="a333" href="carte1.png" target="_blank" rel="noopener noreferrer"><p><img style="width: 80%;" src="carte1.png" alt="carte mentale"></p></a>
+            <a class="a333" href="plan.png" target="_blank" rel="noopener noreferrer"><p><img style="width: 50%;" src="plan.png" alt="plan 3d"></p></a>
+            <a class="a333" href="cosmetique.png" target="_blank" rel="noopener noreferrer"><p><img style="width: 60%;" src="cosmetique.png" alt="plan"></p></a>
+        </div>
+
+        <div id="divi44">
+            <a class="a333" href="carte1.png" target="_blank" rel="noopener noreferrer"><p style="gap: 6em;">Carte mentale</p></a>
+            <a class="a333" href="plan.png" target="_blank" rel="noopener noreferrer"><p>plan de maison</p></a>
+            <a class="a333" href="cosmetique.png" target="_blank" rel="noopener noreferrer"><p>design d'affiche</p></a>
+        </div>
+
+             <div id="divi333">
+           <p class="a333"><img style="width: 80%;" src="appli.png" alt="appli"></p>
+            <p class="a333"><img style="width: 70%;" src="site web2.png" alt="site web"></p>
+            <p class="a333"><img style="width: 60%;" src="projet.png" alt="projet"></p>
+        </div>
+
+        <div id="divi444">
+            <p class="a333" style="gap: 6em;">installation de logiciel</p>
+            <p class="a333">site web</p>
+            <p class="a333">projet JavaScript</p>
+
+        </div>
+
+    </section>
+
+
+     <!-- conctact -->
+
+    <section id="contact2">
+        
+        <section class="compe">
+            <div id="demi4"></div>
+            <div>
+<h1 style="position: relative; right: 16%;">CONTACTEZ NOUS</h1>
+        <p style="position: relative; right: 10%;">Convaincu par nos offres de services? n'hesitez pas à nous
+            contacter pour qu'on discute davantage sur votre futur projet</p>
+
+                <div class="conta">
+                    <img class="ccc" src="telephone.png" alt="tel">
+                    <p class="zzz"><a class="lienlien" href="tel:+228 93 51 22 56">+228 93 51 22 56</a></p>
+                </div> <br>
+
+                <div class="conta">
+                    <img class="ccc" src="mail.png" alt="mail">
+                    <p class="zzz"><a class="lienlien"
+                            href="mailto:merrylwallisso@gmail.com">merrylwallisso@gmail.com</a></p>
+                </div> <br>
+
+                <div class="conta">
+                    <img class="ccc" src="localisation.png" alt="localisation">
+                    <p class="zzz">ANEHO</p>
+                </div> <br>
+
+                <div class="contac">
+                     <a href="https://x.com/home" target="_blank" rel="noopener noreferrer"><img class="mm" src="twitter.png" alt="twitter"></a>
+            <a href="https://lnkd.in/dqh5JNrc" target="_blank" rel="noopener noreferrer"><img class="mm" src="insta.png" alt="instagram"></a>
+           <a href="www.linkedin.com/in/merryl-wallis-somado-791a71341" target="_blank" rel="noopener noreferrer"><img class="mm" src="linkedin.png" alt="linkedin"></a> 
+            <a href="https://www.facebook.com/rylzy05/about_contact_and_basic_info" target="_blank" rel="noopener noreferrer"><img class="mm" src="facebook.png" alt="facebook"></a>
+                </div>
+            </div>
+
+            <div class="form">
+                <form action="" id="formul">
+                    <div>
+                        <input id="nom" type="text" name="" class="text" required placeholder="Votre nom">
+                    </div> <br>
+                    <br>
+                    <div>
+                        <input id="mail" type="text" name="" class="text" required placeholder="Email">
+                    </div> <br>
+                    <br>
+
+                    <div>
+                        <input id="phone" type="text" name="" class="text" required placeholder="Numero de téléphone">
+                    </div> <br>
+                    <br>
+
+                    <div>
+                        <textarea rows="4" cols="50" name="commentaire" id="text0" placeholder="Votre avis"
+                            required></textarea>
+                    </div> <br>
+                    <br>
+                    <button id="send" type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </section>
+
+
+<script type="text/javascript">
+    document.getElementById("formul").addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        let name = document.getElementById("nom").value;
+        console.log("nom: " + name);
+
+        let email = document.getElementById("mail").value;
+        console.log("Email: " + email);
+
+        let tel = document.getElementById("phone").value;
+        console.log("Numero: " + tel);
+
+        let sms = document.getElementById("text0").value;
+        console.log("commentaire: " + sms);
+
+        alert("Votre commentaire est bien envoyé !");
+
+    });
+</script>
+
+
+<!-- pied de page -->
+
+     <section class="pied2">
+        <div id="piedd2">
+            <p><a class="link1" href="page1.html">A propos</a></p>
+            <p><a class="link1" href="page1.html">Services</a></p>
+            <p><a class="link1" href="page1">CivilArchDev</a></p>
+            <p><a class="link1" href="page1.html">Mes compétences</a></p>
+            <p><a class="link1" href="page2.html">Mes réalisations</a></p>
+        </div>
+
+        <div id="sasa2">
+            <p>Suivez moi sur les réseaux sociaux</p>
+        </div>
+
+         <div id="linka2">
+            <a href="https://x.com/home" target="_blank" rel="noopener noreferrer"><img class="mmm2" src="twitter.png" alt="twitter"></a>
+            <a href="https://lnkd.in/dqh5JNrc" target="_blank" rel="noopener noreferrer"><img class="mmm2" src="insta.png" alt="instagram"></a>
+           <a href="www.linkedin.com/in/merryl-wallis-somado-791a71341" target="_blank" rel="noopener noreferrer"><img class="mmm2" src="linkedin.png" alt="linkedin"></a> 
+            <a href="https://www.facebook.com/rylzy05/about_contact_and_basic_info" target="_blank" rel="noopener noreferrer"><img class="mmm2" src="facebook.png" alt="facebook"></a>
+            </div>
+    </section>
+</body>
+</html>

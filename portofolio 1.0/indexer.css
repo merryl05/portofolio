@@ -1,0 +1,48 @@
+.structure {
+display: flex;
+justify-content: flex-end;
+gap: 70px;
+
+}
+.reduction {
+    width: 350px
+}
+li{
+    display: inline-block;
+    margin: 3em;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(125, 224, 125);
+    color: rgb(0, 0, 0);
+    height: 30vh;
+    width: 100vw;
+}
+.img1{
+    width:300px;
+}
+.img2{
+    width: 300px;
+}
+.img3{
+    width: 500px;
+}
+.kid{
+    width: 450px;
+}
+.parag{
+    font-weight: bold;
+}
+.accueil{
+    background-color: rgb(119, 233, 119); 
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-align: center;
+}
+.fond{
+    background-color: #caf3d5;
+}

@@ -1,0 +1,792 @@
+#body {
+    background-color: rgb(231, 221, 221);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    background-color: #f8a100;
+}
+
+.entete {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5em;
+    color: rgb(0, 0, 0);
+    height: 11vh;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    right: 5%;
+}
+
+#demi2 {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+}
+
+.deca {
+    position: absolute;
+    left: 8%;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+#demi {
+    width: 120px;
+    height: 61px;
+    background-color: rgb(255, 140, 0);
+    border-top-left-radius: 190px;
+    border-top-right-radius: 190px;
+    margin: 0 auto;
+}
+
+#foot {
+    right: 20%;
+    position: absolute;
+    bottom: -20px;
+    background-color: bisque;
+    width: 198%;
+}
+
+.boite {
+    box-shadow: 50cqb;
+}
+
+.sec {
+    color: white;
+    align-items: center;
+    text-align: center;
+    gap: 13em;
+    color: rgb(255, 255, 255);
+    height: 55vh;
+    width: 99vw;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: -520px;
+}
+
+
+.decalage {
+    position: relative;
+    left: 10%;
+}
+
+
+#dev {
+    background-color: rgb(53, 50, 50);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    zoom: 200%;
+    position: absolute;
+    bottom: -22%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-decoration: none;
+    text-transform: none;
+}
+
+#dev:hover {
+    background-color: #15ff21;
+}
+
+.dev2 {
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    zoom: 150%;
+    text-decoration: none;
+    position: absolute;
+    bottom: -15%;
+    left: 35%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.dev2:hover {
+    background-color: #15ff21;
+}
+
+#divi1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 22em;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+#divi2 {
+    display: flex;
+    gap: 25em;
+    padding-left: 11%;
+    position: absolute;
+    bottom: 12%;
+}
+
+
+.competences {
+    background-color: black;
+    color: rgb(250, 249, 248);
+    font-weight: bold;
+    zoom: 200%;
+    position: absolute;
+    bottom: -5cqb;
+    left: 3cqb;
+}
+
+.competences:hover {
+    color: rgb(230, 80, 21);
+}
+
+.dec {
+    position: relative;
+    bottom: 10cqb;
+    right: 15%;
+}
+
+
+/* mes réalisation page 2 */
+.service2 {
+    align-items: center;
+    text-align: center;
+    gap: 13em;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 99vw;
+    background-color: rgb(247, 200, 200);
+    position: absolute;
+    bottom: -120px;
+}
+
+#divi33 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 2%;
+    gap: 4em;
+}
+
+
+#divi44 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 22em;
+    padding-left: 8%;
+    padding-top: 18%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#divi333 {
+    display: flex;
+    gap: 5em;
+    padding-left: 9%;
+    position: absolute;
+    bottom: 10%;
+}
+#divi444 {
+    display: flex;
+    gap: 18em;
+    padding-left: 10%;
+    position: absolute;
+    bottom: 6%;
+     font-weight: bold;
+
+}
+
+.a333 {
+    text-decoration: none;
+    color: #000000;
+}
+
+.a333:hover {
+    zoom: 110%;
+}
+
+
+/* SECTION DES SERVICES */
+
+.service {
+    align-items: center;
+    text-align: center;
+    gap: 13em;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 99vw;
+    background-color: rgb(247, 200, 200);
+    position: absolute;
+    bottom: -1190px;
+}
+
+#divi3 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    gap: 9em;
+}
+
+
+#divi4 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 7em;
+    padding-left: 11%;
+    padding-top: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#divi5 {
+    display: flex;
+    gap: 5em;
+    padding-left: 9%;
+    position: absolute;
+    bottom: 22%;
+}
+
+/* fin de la section */
+
+
+
+/* section des compétences */
+#compet {
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 20vh;
+    width: 99vw;
+    position: absolute;
+    bottom: -1250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.compe {
+    align-items: center;
+    text-align: center;
+    gap: 13em;
+    color: rgb(0, 0, 0);
+    height: 60vh;
+    width: 99vw;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -400px;
+    display: flex;
+}
+
+.ppp {
+    font-size: 20px;
+    margin: 3px 0;
+    text-align: justify;
+}
+
+.sss {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.container {
+    width: 100%;
+    background-color: #cabebe;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.html {
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 20px;
+    color: #f8f8f8;
+    width: 39%;
+    background-color: #000000;
+    animation: animation1 3s ease-in-out forwards;
+}
+
+@keyframes animation1 {
+    0% {
+        width: 0;
+        margin-left: -50px;
+    }
+
+    100% {
+        width: 39%;
+    }
+}
+
+.css {
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 20px;
+    color: #000000;
+    width: 30%;
+    background-color: #14d4e2;
+    animation: animation2 3s ease-in-out forwards;
+}
+
+@keyframes animation2 {
+    0% {
+        width: 0;
+        margin-left: -50px;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+.java {
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 20px;
+    color: #000000;
+    width: 30%;
+    background-color: #db1313;
+    animation: animation3 5s ease-in-out forwards;
+}
+
+@keyframes animation3 {
+    0% {
+        width: 0;
+        margin-left: -50px;
+    }
+
+    100% {
+        width: 15%;
+    }
+}
+
+.affiche {
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 20px;
+    color: #000000;
+    width: 30%;
+    background-color: #ffad15;
+    animation: animation4 3s ease-in-out forwards;
+}
+
+@keyframes animation4 {
+    0% {
+        width: 0;
+        margin-left: -50px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.plan {
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 20px;
+    color: #000000;
+    width: 30%;
+    background-color: #15ff21;
+    animation: animation5 3s ease-in-out forwards;
+}
+
+@keyframes animation5 {
+    0% {
+        width: 0;
+        margin-left: -50px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.logiciel {
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 20px;
+    color: #000000;
+    width: 30%;
+    background-color: #827be6;
+    animation: animation6 3s ease-in-out forwards;
+}
+
+@keyframes animation6 {
+    0% {
+        width: 0;
+        margin-left: -50px;
+    }
+
+    100% {
+        width: 58%;
+    }
+}
+
+/* fin de la section */
+
+
+/* section de témoignage */
+.temoin {
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 60vh;
+    width: 99vw;
+    position: absolute;
+    bottom: -1995px;
+    background-color: rgb(231, 221, 2);
+
+    .tem {
+        width: 5%;
+        position: relative;
+        right: 10%;
+    }
+}
+
+#tem1 {
+    position: absolute;
+    right: 28%;
+    bottom: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#demi3 {
+     width: 120px;
+    height: 61px;
+    background-color: rgb(199, 109, 0);
+    border-bottom-left-radius: 190px;
+    border-bottom-right-radius: 190px;
+    margin: 0 auto;
+}
+
+/* fin de la section */
+
+/* inspiration */
+
+.ide {
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 85vh;
+    width: 99vw;
+    position: absolute;
+    bottom: -2565px;
+    background-color: rgb(146, 125, 125);
+
+}
+
+#divi6 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    gap: 12em;
+}
+
+
+#divi7 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 37em;
+    padding-left: 11%;
+    padding-top: 22%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#divi8 {
+    display: flex;
+    gap: 15em;
+    padding-left: 9%;
+    padding-right: 1%;
+    position: absolute;
+    bottom: 16%;
+}
+
+/* fin de la section */
+
+.none {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* box */
+
+.box1 {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid navy;
+    margin: 20px;
+    padding: 15px;
+    position: relative;
+    left: 55%;
+}
+
+.box2 {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid navy;
+    margin: 20px;
+    padding: 15px;
+    position: relative;
+    bottom: 32cqb;
+    left: 85%;
+}
+
+/* fin de box */
+
+/* contact css */
+
+#contact {
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 20vh;
+    width: 99vw;
+    position: absolute;
+    bottom: -2485px;
+}
+
+.conta {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.ccc {
+    width: 10%;
+}
+
+.lienlien {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.lienlien:hover {
+color: #fa0000;
+}
+.zzz {
+    font-weight: bold;
+}
+
+.contac {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.form {
+    padding-right: 10%;
+}
+
+.text {
+    width: 100%;
+}
+
+#text1 {
+    line-height: 330%;
+    width: 300%;
+}
+
+#send {
+    background-color: #000000;
+    color: white;
+    width: 20%;
+}
+
+#send:hover {
+    background-color: #15ff21;
+    color: #000000;
+}
+
+#demi4 {
+    width: 200px;
+    height: 111px;
+    background-color: rgb(255, 140, 0);
+    border-end-end-radius: 250px;
+    border-start-end-radius: 250px;
+    margin: auto 0;
+    bottom: -3280;
+}
+
+/* fin de contact */
+
+
+/* contact2 css */
+
+#contact2 {
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 20vh;
+    width: 99vw;
+    position: absolute;
+    bottom: -100px;
+}
+
+.conta {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.ccc {
+    width: 10%;
+}
+
+.zzz {
+    font-weight: bold;
+}
+
+.contac {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.mm {
+    width: 50%;
+}
+
+.form {
+    padding-right: 10%;
+}
+
+.text {
+    width: 100%;
+}
+
+#text1 {
+    line-height: 330%;
+    width: 300%;
+}
+
+#send {
+    background-color: #000000;
+    color: white;
+    width: 20%;
+}
+
+#send:hover {
+    background-color: #15ff21;
+    color: #000000;
+}
+
+#demi4 {
+    width: 200px;
+    height: 111px;
+    background-color: rgb(255, 140, 0);
+    border-end-end-radius: 250px;
+    border-start-end-radius: 250px;
+    margin: auto 0;
+    bottom: -3280;
+}
+
+/* fin de contact2 */
+
+/* pied de page */
+
+.pied {
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #1b1b1b;
+    height: 25vh;
+    width: 99vw;
+    position: absolute;
+    bottom: -3050px;
+}
+
+#piedd {
+    padding-top: 2%;
+    display: flex;
+    gap: 9em;
+    padding-left: 12%;
+}
+
+.link1 {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+#sasa {
+    position: relative;
+    right: 2%;
+}
+
+#linka {
+    gap: 4em;
+    position: relative;
+    right: 3%;
+}
+
+.mmm {
+    width: 2%;
+    filter: invert(100%);
+
+}
+/* fin de section */
+
+/* pied page 2 */
+.pied2 {
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #1b1b1b;
+    height: 25vh;
+    width: 99vw;
+    position: absolute;
+    bottom: -670px;
+}
+
+#piedd2 {
+    padding-top: 2%;
+    display: flex;
+    gap: 9em;
+    padding-left: 12%;
+}
+
+.link1 {
+    color: white;
+    text-decoration: none;
+    align-items: center;   
+}
+
+#sasa2 {
+    position: relative;
+    right: 2%;
+}
+
+#linka2 {
+    gap: 4em;
+    position: relative;
+    right: 3%;
+}
+
+.mmm2 {
+    width: 2%;
+    filter: invert(100%);
+
+}
+/* end */
